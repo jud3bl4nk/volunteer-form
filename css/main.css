@@ -10,6 +10,9 @@ footer {
   background-color: #70ad55;
 }
 
+fieldset {
+  border: 0;
+}
 
 span {
   color: #70ad55;
@@ -30,6 +33,11 @@ h2 {
 
 p {
   color: #fff;
+}
+
+[type="checkbox"] + label::before {
+  border-color: #70ad55;
+}
 
 input, select {
   border-color: #70ad55;
